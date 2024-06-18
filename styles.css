@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Tw Cen MT", Arial, Helvetica, sans-serif;
+}
+
+/* CSS barra principal */
+
+#barra-principal {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+#barra-principal-opciones {
+  display: flex;
+  list-style-type: none;
+  width: 700px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#barra-principal-opciones li {
+  font-family: "Tw Cen MT", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 8px;
+}
+
+#barra-principal-redes {
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#barra-principal-redes img {
+  width: 25px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:link:active, a:visited:active {
+  color: black;
+}
+
+/* CSS Foto Portada */
+#portada-presentacion {
+  position: relative;
+  z-index: -1;
+}
+
+#logo-blanco {
+  position: absolute;
+  height: 25%;
+  top: 68%;
+  left: 27%;
+}
+
+/* CSS Seccion Shows*/
+
+.show {
+  display: flex;
+  border: solid slategray 1px;
+  border-radius: 5px;
+  width: 800px;
+  margin: auto;
+  margin-top: 20px;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.show section {
+  margin: 10px;
+}
+
+.fecha-show > .fecha-dia {
+  color: rgb(64,64,64);
+  font-size: 14pt;
+  font-weight: 800;
+}
+
+.fecha-show > .fecha-mes {
+  color: black;
+  font-size: 17pt;
+  font-weight: 800;
+}
+
+.fecha-show > .fecha-hora {
+  color: black;
+  font-size: 20pt;
+  font-weight: 800;
+}
+
+.ubicacion-show {
+  width: 200px;
+}
+
+.boton-comprar {
+  width: 120px;
+  height: 50px;
+  background-color: crimson;
+  color: white;
+  font-weight: 800;
+  border-radius: 10px;
+}
+
+#seccion-shows > .subtitulo {
+  padding-top: 30px;
+  text-decoration: underline;
+}
+
+/* CSS Seccion Videos*/
+.topic-seccion {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nombre-seccion {
+  font-size: 4vw;
+  text-align: center;
+}
+
+.flex-seccion {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: lightgrey;
+  margin-top: 20px;
+}
+
+.flex-item {
+  margin: 20px;
+}
+
+figure figcaption {
+  font-size: 16pt;
+  text-align: center;
+  margin-top: 8px;
+}
+
+/* CSS General*/
+.titulo-pagina {
+  font-size: 45pt;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.subtitulo {
+  font-size: 18pt;
+  text-align: center;
+}
+
+/* CSS Miembros*/
+#flex-fotos-miembros {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#flex-fotos-miembros img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 50px;
+}
+
+.bio-miembro {
+  border: solid lightgrey 1px;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.bio-miembro > img {
+  height: 450px;
+}
+
+.presentacion-miembro {
+  width: 500px;
+}
+
+.rol-integrante {
+  font-size: 25pt;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.presentacion-miembro p {
+  font-size: 16pt;
+  margin-bottom: 50px;
+}
+
+.redes-miembro a {
+  margin-right: 20px;
+}
+
+/* CSS Discografia */
+.flex-discografia {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.album-info {
+  display: flex;
+  border: solid lightgray 1px;
+  width: 750px;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.foto-album {
+  width: 350px;
+}
+
+.titulo-album {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  font-size: 18pt;
+}
+
+.canciones {
+  margin-top: 15px;
+}
+
+.album-descripcion {
+  font-size: 13pt;
+  width: 360px;
+}
+
+/* CSS Footer*/
+footer {
+  height: 80px;
+  background-color: rgb(42,42,42);
+}
+
+#musica-streaming {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+#musica-streaming a {
+  margin-top: 15px;
+}
